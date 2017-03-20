@@ -84,7 +84,7 @@
         <!-- 
         Set this property to 'true' in a profile to skip the integration tests and not even run the Docker containers.
         -->
-        <docker.skip>false</docker.skip>
+        <docker.skip>true</docker.skip>
         <docker.exposeContainerInfo>docker.container</docker.exposeContainerInfo>
     </properties>
     <build>

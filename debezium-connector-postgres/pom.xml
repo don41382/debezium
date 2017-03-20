@@ -22,7 +22,7 @@
         <postgres.password>postgres</postgres.password>
         <postgres.db.name>postgres</postgres.db.name>
         <docker.filter>debezium/postgres:${version.postgres.server}</docker.filter>
-        <docker.skip>false</docker.skip>
+        <docker.skip>true</docker.skip>
         <docker.showLogs>true</docker.showLogs>
     </properties>
 
