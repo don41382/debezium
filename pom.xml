@@ -95,7 +95,7 @@
         <skipLongRunningTests>true</skipLongRunningTests>
 
         <!-- Don't skip integration tests by default -->
-        <skipITs>false</skipITs>
+        <skipITs>true</skipITs>
 
         <!-- No debug options by default -->
         <debug.argline />
