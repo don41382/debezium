@@ -89,7 +89,7 @@
         However, we run one container with GTIDs and one without.
         -->
         <docker.filter>debezium/mysql-server-test-database</docker.filter>
-        <docker.skip>false</docker.skip>
+        <docker.skip>true</docker.skip>
     </properties>
     <build>
         <plugins>
